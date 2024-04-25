@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    /* this center doesn't mean that center according to page it means that it center to parent elemen\
+    if h1 has widht of 50% and we align the text to write it will remain in middle of our screen
+    which means this alignment is according to h1 element  */
+    text-decoration: underline  blue; /* line color can also be changed*/
+    font-size: 5em;
+    /* there are two types of units Absolute and Relative */
+    
+    /* this is relative unit like % em rem ch vh  */
+    font-family: sans-serif;
+}
+h2{
+    font-weight:normal;
+
+    /* font-weight: 400; (this is also same as normal
+    Normal scale for font weight is 100-900 100 lighest and 900 boldest */
+     text-decoration: line-through;  /*line through means line cutting the heading*/
+    font-size: 50px;
+    /* there are two types of sizes Absolute and Relative */
+    /* like px pt cm mm in */
+    /* for responsive websites we don't use absolute units we must use relative units
+     */
+     font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    text-decoration: overline double;/*means line comes over the text and we can also double the line or dotted line or anything else wavy lien*/
+    font-weight: bold;
+    line-height: 2;
+    /* two times normal line height we are doing */
+    letter-spacing: 5px;
+    /*5px of gape b/w each letter in paragraph 
+     */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
