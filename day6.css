@@ -1,0 +1,83 @@
+/* Universal selector is basically which selects everything in the document ("*") represented by aesterics */
+*{
+ font-family: sans-serif;
+ background-color:rgb(225, 255, 255);
+}
+/* whole document is in sans serif */
+h1{
+    color: #b92b27;
+    /* this is single element selector */
+}
+h3{
+  color: darkslateblue;
+  /* this is single element selector */
+}
+#login{
+    background-color: white;
+    /* this is id selector where we select single element with id */
+    
+}
+#signup{
+    background-color: #b92b27;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0ch;
+    border-color: #b92b27;
+    border-style: hidden;
+
+       /* this is id selector where we select single element with id */
+}
+#signup:hover{
+    background-color: blue;
+    
+}
+.up{
+    background-color: #b92b27;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0ch;
+    border-color: #b92b27;
+    border-style: hidden;
+  
+    /* This is class selector where we select every element with that class */
+
+}
+div p[id="myid"] { 
+color: green;
+}
+/* descendent selectors div is there then we have unordered list than we have paragraph  */
+/* so we can do same div ul like this we can apply styles differently to other elements by descendant selector */
+p a {
+    color: purple;
+}
+/* so here we have changed the colour of each anchor tag to purple but those anchors tag which are under paragraph not outside it so we used descendent selectors */
+p + h3 {
+    text-align: center;
+}
+/* sibling combinator where we can work on somethings which are at same level */
+/* psudo class */
+button:hover{
+    background-color:white;
+    color: black;
+}
+/* not only button but hover works on everything like heading and all */
+button:active{
+    background-color: blue;
+
+}
+/* psudo elements */
+h3::first-letter{
+    color: BLack;
+}
+p::first-line{
+    color: red;
+}
+p::selection{
+    color:lime;
+    background-color: light yellow;
+}
+
+/* specificity = id>class>element 
+if specificity is same than cascading comes into the picture
+cascading the element defined at last will be considered */
+ /* inline specificity will be the most  */
