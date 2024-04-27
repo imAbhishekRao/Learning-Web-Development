@@ -1,0 +1,91 @@
+/*/* div{
+    background-color: rgba(0, 255, 255, 0.438);
+    /* the number after rgb is alpha which tell opacity of color only  */
+/* } */ 
+/* #new{
+    background-color: aqua;
+    opacity: 0.3;
+    /* opacity is basically opacity of full div not only color so everyting which is in the div will start becoming transparent */
+/* } */ 
+/* 
+#trans{
+    background-color: blue;
+    border-style: solid;
+    height: 200px;
+    width: 200px;
+
+    transition: margin-top 2s ease-in 0.2s;
+    margin: 0 auto;
+    margin-top: 10px
+    ;
+  
+
+    } */ 
+    /* 
+#trans:hover{
+    border-radius: 400px;
+    background-color: aqua;
+    margin-top: 200px;
+    
+/* } */
+section{
+    margin-top: 100px;
+    padding: 5%;
+}
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px;
+}
+div:nth-of-type(2n){
+    background-color: #f7db6a;
+}
+div:nth-of-type(3n){
+    background-color: #ebb02d;
+}
+#one{
+    transform:rotate(45deg
+    );
+
+}
+#two{
+    transform:scale(
+0.5    );
+
+}
+#three{
+    transform:translate(400px,100px
+    );
+
+}
+#four{
+    transform:skew(45deg
+    );
+
+}
+
+
+
+#five{
+    transform: translate(400px,100px);
+  
+    
+}
+
+
+
+
+#shadow{
+    width: 200px;
+    height: 50px;
+    
+    background-color: blue;
+    margin: 500px auto;
+    box-shadow: 2px 2px 8px;
+}
+h1{
+    padding: 0.1%;
+}
