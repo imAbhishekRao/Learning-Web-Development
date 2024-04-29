@@ -89,3 +89,14 @@ div:nth-of-type(3n){
 h1{
     padding: 0.1%;
 }
+#bg{
+  color: blue;
+    width: 200px;
+height: 100px;
+background-image: url(premium_photo-1713803863170-436be4feb510.avif);
+background-size: auto;}
+
+#static{
+    background-color: yellow;
+    position: fixed;
+}
